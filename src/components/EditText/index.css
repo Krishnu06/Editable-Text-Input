@@ -1,0 +1,74 @@
+.app-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #f5d0fe;
+}
+.edit-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background-color: #ffffff;
+  width: 35%;
+  max-width: 1100px;
+  height: 220px;
+  border-radius: 12px;
+}
+.input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 22px;
+}
+.text-input {
+  background-color: #ffffff;
+  color: #323f4b;
+  font-size: 22px;
+  font-family: 'Roboto';
+  outline: none;
+  border-radius: 8px;
+  border: 1px solid #cbd2d9;
+  padding: 8px;
+  padding-left: 12px;
+}
+.save-btn {
+  font-size: 16px;
+  color: #fff;
+  background-color: #d946ef;
+  border-radius: 4px;
+  padding: 8px;
+  height: 42px;
+  width: 62px;
+  margin-left: 32px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+.edit-btn {
+  font-size: 16px;
+  color: #fff;
+  background-color: #d946ef;
+  border-radius: 4px;
+  padding: 8px;
+  height: 42px;
+  width: 62px;
+  margin-left: 32px;
+  outline: none;
+  cursor: pointer;
+  border: none;
+}
+.title {
+  font-size: 32px;
+  color: black;
+  font-weight: 800;
+  font-family: 'Roboto';
+}
+.edit-input {
+  font-size: 22px;
+  font-family: 'Roboto';
+  color: #323f4b;
+}
